@@ -1,5 +1,6 @@
 
 module.exports = {
+  direction: 'rtl',
   seo: {
   "title": "FastStore",
   "description": "A fast and performant store framework",
