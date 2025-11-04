@@ -47,10 +47,10 @@ module.exports = {
 
   // Production URLs
   storeUrl: "https://abelauaedemo.vtex.app",
-  secureSubdomain: "https://secure.vtexfaststore.com/",
-  checkoutUrl: "https://secure.vtexfaststore.com/checkout",
-  loginUrl: "https://secure.vtexfaststore.com/api/io/login",
-  accountUrl: "https://secure.vtexfaststore.com/api/io/account",
+  secureSubdomain: "https://abelauaedemo.myvtex.com/",
+  checkoutUrl: "https://abelauaedemo.myvtex.com/checkout",
+  loginUrl: "https://abelauaedemo.myvtex.com/api/io/login",
+  accountUrl: "https://abelauaedemo.myvtex.com/api/io/account",
 
   previewRedirects: {
     home: '/',
