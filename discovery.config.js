@@ -36,6 +36,7 @@ module.exports = {
     postalCode: null,
     geoCoordinates: null,
     person: null,
+    direction: 'rtl'
   },
 
   cart: {
