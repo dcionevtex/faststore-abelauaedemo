@@ -8,7 +8,7 @@ module.exports = {
   "author": "FastStore"
 },
 
-  // Theming
+  // Theming default
   theme: 'custom-theme',
 
   // Ecommerce Platform
