@@ -10,6 +10,7 @@ module.exports = {
 
   // Theming
   theme: 'custom-theme',
+  direction: 'rtl'
 
   // Ecommerce Platform
   platform: 'vtex',
