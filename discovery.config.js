@@ -1,16 +1,14 @@
 
 module.exports = {
-  direction: 'rtl',
   seo: {
   "title": "FastStore",
   "description": "A fast and performant store framework",
   "titleTemplate": "%s | FastStore",
-  "author": "FastStore",  
-
+  "author": "FastStore"
 },
 
   // Theming
-  theme: 'custom-theme'
+  theme: 'custom-theme',
 
   // Ecommerce Platform
   platform: 'vtex',
@@ -20,7 +18,7 @@ module.exports = {
     storeId: "abelauaedemo",
     workspace: 'master',
     environment: 'vtexcommercestable',
-    hideUnavailableItems: false,
+    hideUnavailableItems: true,
     incrementAddress: false,
   },
 
@@ -38,7 +36,7 @@ module.exports = {
     postalCode: null,
     geoCoordinates: null,
     person: null,
-    
+   
   },
 
   cart: {
@@ -86,13 +84,12 @@ module.exports = {
 
   analytics: {
     // https://developers.google.com/tag-platform/tag-manager/web#standard_web_page_installation,
-    gtmContainerId: "123",
+    gtmContainerId: "",
   },
 
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
-   
   },
 
   vtexHeadlessCms: {
