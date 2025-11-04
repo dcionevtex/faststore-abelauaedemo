@@ -1,11 +1,12 @@
 
 module.exports = {
+  direction: 'rtl',
   seo: {
   "title": "FastStore",
   "description": "A fast and performant store framework",
   "titleTemplate": "%s | FastStore",
-  "author": "FastStore",
-  
+  "author": "FastStore",  
+
 },
 
   // Theming
