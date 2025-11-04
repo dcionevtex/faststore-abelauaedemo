@@ -4,7 +4,8 @@ module.exports = {
   "title": "FastStore",
   "description": "A fast and performant store framework",
   "titleTemplate": "%s | FastStore",
-  "author": "FastStore"
+  "author": "FastStore",
+  
 },
 
   // Theming
@@ -18,7 +19,7 @@ module.exports = {
     storeId: "abelauaedemo",
     workspace: 'master',
     environment: 'vtexcommercestable',
-    hideUnavailableItems: true,
+    hideUnavailableItems: false,
     incrementAddress: false,
   },
 
