@@ -9,8 +9,7 @@ module.exports = {
 },
 
   // Theming
-  theme: 'custom-theme',
-  direction: 'rtl'
+  theme: 'custom-theme'
 
   // Ecommerce Platform
   platform: 'vtex',
@@ -22,7 +21,6 @@ module.exports = {
     environment: 'vtexcommercestable',
     hideUnavailableItems: false,
     incrementAddress: false,
-    direction: 'rtl'
   },
 
   // Default session
@@ -39,7 +37,7 @@ module.exports = {
     postalCode: null,
     geoCoordinates: null,
     person: null,
-    direction: 'rtl'
+    
   },
 
   cart: {
@@ -93,6 +91,7 @@ module.exports = {
   experimental: {
     nodeVersion: 18,
     cypressVersion: 12,
+    direction: 'rtl',
   },
 
   vtexHeadlessCms: {
