@@ -21,6 +21,7 @@ module.exports = {
     environment: 'vtexcommercestable',
     hideUnavailableItems: false,
     incrementAddress: false,
+    direction: 'rtl'
   },
 
   // Default session
